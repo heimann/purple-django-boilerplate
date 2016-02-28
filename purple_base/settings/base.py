@@ -81,8 +81,6 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
 
-                # Local context processors.
-                'youtubeadl.apps.core.context_processors.third_party_tracking_ids',
             ],
             'loaders': [
                 'django.template.loaders.filesystem.Loader',
@@ -108,6 +106,8 @@ DATABASES = {
         'PORT': os.getenv('DATABASE_PORT', '5432'),
     }
 }
+
+# DATABASES['default']['ATOMIC_REQUESTS'] = True
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
@@ -230,4 +230,4 @@ LOGGING = {
 
 
 # Grappelli settings.
-GRAPPELLI_ADMIN_TITLE = 'YouTube ADL Admin'
+GRAPPELLI_ADMIN_TITLE = 'GetPurple.io Admin'
