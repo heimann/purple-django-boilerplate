@@ -1,0 +1,13 @@
+{
+  "name": "purple_base",
+  "version": "0.2.0",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-sass": "~0.3.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
