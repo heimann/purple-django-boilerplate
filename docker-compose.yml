@@ -1,6 +1,22 @@
 db:
   image: postgres
 
+rabbitmq:
+  image: rabbitmq
+
+worker:
+  build: .
+  restart: always
+  command: celery -A purple_base worker -l info
+  links:
+    - db
+    - rabbitmq
+  env_file: .env
+  volumes:
+    - .:/code
+  environment:
+    - C_FORCE_ROOT=true
+
 web:
   build: .
   command: python manage.py runserver 0.0.0.0:8000
@@ -11,3 +27,4 @@ web:
   env_file: .env
   links:
     - db
+    - rabbitmq

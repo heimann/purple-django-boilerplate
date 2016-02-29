@@ -1,0 +1,24 @@
+body, div {
+  padding: 0; }
+
+p {
+  margin: 0 auto; }
+
+h1 {
+  display: block;
+  margin: 0 auto; }
+
+p {
+  margin: 0 auto;
+  display: block;
+  font-size: 1.5em; }
+
+.menu-bar {
+  max-width: 200px;
+  display: block; }
+
+.menu-underline {
+  text-decoration: underline; }
+
+.this-works {
+  display: block; }

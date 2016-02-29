@@ -220,13 +220,13 @@ LOGGING = {
 # GOOGLE_ANALYTICS_TRACKING_ID = os.getenv('GOOGLE_ANALYTICS_TRACKING_ID')
 # ADDTHIS_PUBLISHER_ID = os.getenv('ADDTHIS_PUBLISHER_ID')
 
-
-# Celery settings.
-# BROKER_URL = os.getenv('BROKER_URL', 'amqp://guest:guest@127.0.0.1//')
 #
-# BROKER_POOL_LIMIT = 3
-# CELERY_TIMEZONE = 'America/New_York'
-# CELERY_RESULT_BACKEND = os.getenv('CELERY_RESULT_BACKEND', 'amqp')
+# Celery settings.
+BROKER_URL = os.getenv('BROKER_URL', 'rabbitmq')
+
+BROKER_POOL_LIMIT = 3
+CELERY_TIMEZONE = 'America/New_York'
+CELERY_RESULT_BACKEND = os.getenv('CELERY_RESULT_BACKEND', 'amqp')
 
 
 # Grappelli settings.
