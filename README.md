@@ -1,7 +1,7 @@
 Purple Base Project
 ===================
 
-This is the Django starter project I use. It is optimized for [Docker Compose](https://docs.docker.com/compose/ use in development and to deploy on Heroku.
+This is the Django starter project I use. It is optimized for [Docker Compose](https://docs.docker.com/compose/) use in development and to deploy on Heroku.
 
 WIP.
 
