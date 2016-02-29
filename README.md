@@ -56,15 +56,22 @@ That's it. You can now find your django dev server running at the IP Address you
 Sass stuff goes here.
 
 ## Resources
-(cookiecutter-django)[]
-(cookiecutter-simple-django)[]
-(cookiecutter-django docker instructions)[https://cookiecutter-django.readthedocs.org/en/latest/developing-locally-docker.html]
-(Real Python - Django Development with Docker Compose and Machine)[https://realpython.com/blog/python/django-development-with-docker-compose-and-machine/]
-(howchoo - Getting Started with Docker, Compose and Django)[https://howchoo.com/g/y2y1mtkznda/getting-started-with-docker-compose-and-django]
-(Docker compose and Django - Also has Celery + RabbitMQ integration)[http://damdev.me/docker/2015/10/28/docker-compose-django.html]
-(gulp-sass)[https://github.com/dlmanning/gulp-sass]
-(Celeryproject - First Steps with Django)[http://docs.celeryproject.org/en/latest/django/first-steps-with-django.html]
-(Docker - Quickstart: Compose and Django)[https://docs.docker.com/compose/django/]
-(Calazan.com - Using Docker and Docker Compose for local Django development (replacing virtualenv))[https://www.calazan.com/using-docker-and-docker-compose-for-local-django-development-replacing-virtualenv/]
+
+[cookiecutter-django docker instructions](https://cookiecutter-django.readthedocs.org/en/latest/developing-locally-docker.html)
+
+[Real Python - Django Development with Docker Compose and Machine](https://realpython.com/blog/python/django-development-with-docker-compose-and-machine/)
+
+[howchoo - Getting Started with Docker, Compose and Django](https://howchoo.com/g/y2y1mtkznda/getting-started-with-docker-compose-and-django)
+
+[Docker compose and Django - Also has Celery + RabbitMQ integration](http://damdev.me/docker/2015/10/28/docker-compose-django.html)
+
+[gulp-sass](https://github.com/dlmanning/gulp-sass)
+
+
+[Celeryproject - First Steps with Django](http://docs.celeryproject.org/en/latest/django/first-steps-with-django.html)
+
+[Docker - Quickstart: Compose and Django](https://docs.docker.com/compose/django/)
+
+[Calazan.com - Using Docker and Docker Compose for local Django development (replacing virtualenv)](https://www.calazan.com/using-docker-and-docker-compose-for-local-django-development-replacing-virtualenv/)
 
 ... and more.
