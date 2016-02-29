@@ -1,4 +1,4 @@
-Purple Base Project
+Django Base Project
 ===================
 
 This is the Django starter project I use. It is optimized for [Docker Compose](https://docs.docker.com/compose/) use in development and to deploy on Heroku.
@@ -24,12 +24,12 @@ This repo uses docker for development. Make sure you have the [docker-toolbox](h
 
 Set up a new docker-machine to use for development.
 ```
-$ docker-machine create --driver virtualbox *dev1*
+$ docker-machine create --driver virtualbox machine-name
 ```
 
 Create a data partition in order to make all changes on the machine persistent.
 ```
-$ docker-machine ssh *dev1*
+$ docker-machine ssh machine-name
 $ sudo su
 $ mkdir /data
 $ echo 'ln -sfn /mnt/sda1/data /data' >> /var/lib/boot2docker/bootlocal.sh
@@ -37,12 +37,12 @@ $ echo 'ln -sfn /mnt/sda1/data /data' >> /var/lib/boot2docker/bootlocal.sh
 
 Make your new docker-machine the active unit.
 ```
-$ eval "$(docker-machine env *dev1*)"
+$ eval "$(docker-machine env machine-name)"
 ```
 
 Get the IP Address of your machine, this is where you'll find your Django dev server.
 ```
-$ docker-machine ip *dev1*
+$ docker-machine ip machine-name
 ```
 
 To get everything up and running just run:
